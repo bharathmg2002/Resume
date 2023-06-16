@@ -1,0 +1,201 @@
+html{
+    font-size: 2.6%;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 70%;
+    height: 100%; 
+    border: solid;
+    margin-top: 1% ;
+    margin-right: 7%;
+    margin-left: 16%;
+    border-radius: 5%;
+    background-image: url(../3.jpg);
+    background-size:contain;
+    font-size: 2.6%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    width: fit-content;
+    display: flex;
+    background-image: url(../4.jpg);
+    background-size: cover;
+    border-radius: 5%;
+    box-shadow: 14px 14px 14px 14px rgba(164, 213, 221, 0.15) ;
+}
+.containerA{
+    width: 50%;
+}
+.containerB{
+    width: 70%;
+}
+.image{
+    margin: 0 15%;
+    margin-top: 6%;  
+}
+.img{
+    width: 250px;
+    height: 250px;
+    margin: 5% 15%;
+    margin-left: 9%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(112, 112, 227);
+    border-radius: 50%;
+}
+.contact{
+    margin: 1% 0;
+}
+h2{
+    margin: 1% 0;
+    text-align: center;
+    font-size: 35px;
+}
+.hrcon{
+    width: 30%;
+    height: 4px;
+    background: linear-gradient(to right,green,yellow);
+}
+.hrper{
+    width: 50%;
+    height: 4px;
+    background: linear-gradient(to right,green,yellow);
+}
+.hrtech{
+    width: 50%;
+    height: 4px;
+    background: linear-gradient(to right,green,yellow);
+}
+.hrlan{
+    width: 32%;
+    height: 4px;
+    background: linear-gradient(to right,green,yellow);
+}
+ul{
+    list-style: none;
+}
+.ul{
+    list-style: circle;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+li{
+    font-size: 25px;
+    margin: 3% 0;
+}
+.contact ul{
+    margin: 5%;
+}
+.contact ul li fa-sharp{
+    display: flex;
+}
+.contact ul li fa-brands{
+    display: flex;
+}
+
+.personal-skills ul{
+    margin: 5%;
+    margin-left: 15%;
+}
+.technical-skills ul{
+    margin: 5%;
+    margin-left: 15%;
+}
+.language ul{
+    margin: 5%;
+    margin-left: 15%;
+}
+.certificates1{
+    display: none;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 15%;
+    margin-bottom: 8%;
+    margin-top: 15%;
+}
+p{
+    font-size: 23px;
+    margin: 5%;
+}
+h3{
+    margin: 1% 0;
+    text-align: start;
+    font-size: 25px;
+}
+.hrab{
+    width: 25%;
+    height: 4px;
+    background: linear-gradient(to right,green,yellow);
+}
+.hredu{
+    width: 25%;
+    height: 4px;
+    background: linear-gradient(to right,green,yellow);
+}
+.hrpro{
+    width: 20%;
+    height: 4px;
+    background: linear-gradient(to right,green,yellow);
+}
+.hrcer{
+    width: 28%;
+    height: 4px;
+    background: linear-gradient(to right,green,yellow);
+}
+
+/* ------------Small Screen------------- */
+@media only screen and (max-width:600px){
+    body{
+        width: 100%;
+        height: 100%; 
+        border: solid;
+        margin: 1%;
+        font-size: 2%;
+    }
+    .containerA{
+        width: 50%;
+        margin-left: -1%;
+    }
+    .containerB{
+        width: 60%;  
+    }
+    .contact ul{
+        margin: 3%;
+    }
+    .contact ul li{
+        font-size: 20px;
+        margin: 0;
+    }
+    a{
+        font-size: 20px;
+    }
+    .img{
+        width: 200px;
+        height: 200px;
+    }
+    .certificates2{
+        display: none;
+    }
+    .certificates1{
+        display:block;
+    }
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size:20px ;
+    }
+    h1{
+        font-size: 45px;
+    }
+    li,h3{
+        font-size: 20px;
+    }
+}
