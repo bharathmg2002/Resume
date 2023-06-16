@@ -5,12 +5,12 @@ html{
     box-sizing: border-box;
 }
 body{
-    width: 70%;
+    width: 85%;
     height: 100%; 
     border: solid;
     margin-top: 1% ;
     margin-right: 7%;
-    margin-left: 16%;
+    margin-left: 9%;
     border-radius: 5%;
     background-image: url(../3.jpg);
     background-size:contain;
