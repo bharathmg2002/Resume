@@ -76,6 +76,7 @@ h2{
 ul{
     list-style: none;
     margin: 5%;
+    padding-left: 0;
 }
 .ul{
     list-style: circle;
@@ -101,15 +102,15 @@ li{
 
 .personal-skills ul{
     margin: 5%;
-    margin-left: 15%;
+    margin-left: 25%;
 }
 .technical-skills ul{
     margin: 5%;
-    margin-left: 15%;
+    margin-left: 25%;
 }
 .language ul{
     margin: 5%;
-    margin-left: 15%;
+    margin-left: 25%;
 }
 .certificates1{
     display: none;
@@ -212,5 +213,6 @@ h3{
     }
     .language ul {
         margin: 0;
+        margin-left: 0;
     }
 }
