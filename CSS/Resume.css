@@ -168,6 +168,7 @@ h3{
     }
     .contact ul{
         margin: 3%;
+        padding-left: 4%;
     }
     .contact ul li{
         font-size: 15px;
@@ -190,10 +191,10 @@ h3{
         font-size: 22px;
     }
     p{
-        font-size:20px ;
+        font-size:19px ;
     }
     h1{
-        font-size: 40px;
+        font-size: 35px;
         margin-left: 1%;
     }
     li,h3{
