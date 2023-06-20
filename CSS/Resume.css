@@ -141,6 +141,9 @@ h3{
     height: 4px;
     background: linear-gradient(to right,green,yellow);
 }
+.education ul{
+    padding-left: 0;
+}
 .hrpro{
     width: 20%;
     height: 4px;
