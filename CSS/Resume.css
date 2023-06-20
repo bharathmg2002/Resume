@@ -177,8 +177,8 @@ h3{
         font-size: 20px;
     }
     .img{
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
     }
     .certificates2{
         display: none;
@@ -193,7 +193,8 @@ h3{
         font-size:20px ;
     }
     h1{
-        font-size: 45px;
+        font-size: 40px;
+        margin-left: 1%;
     }
     li,h3{
         font-size: 18px;
