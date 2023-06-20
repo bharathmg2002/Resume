@@ -75,6 +75,7 @@ h2{
 }
 ul{
     list-style: none;
+    margin: 5%;
 }
 .ul{
     list-style: circle;
@@ -153,7 +154,7 @@ h3{
 /* ------------Small Screen------------- */
 @media only screen and (max-width:600px){
     body{
-        width: 100%;
+        width: 100vw;
         height: 100%; 
         border: solid;
         margin: 1%;
@@ -178,8 +179,8 @@ h3{
         font-size: 20px;
     }
     .img{
-        width: 150px;
-        height: 150px;
+        width: 130px;
+        height: 130px;
     }
     .certificates2{
         display: none;
@@ -195,12 +196,18 @@ h3{
     }
     h1{
         font-size: 35px;
-        margin-left: 1%;
+        margin: 10% 1%;
     }
     li,h3{
         font-size: 18px;
     }
     a{
         font-size: 15px;
+    }
+    .personal-skills ul {
+        margin-left: 0;
+    }
+    .technical-skills ul {
+        margin: 0;
     }
 }
