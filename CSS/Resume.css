@@ -92,6 +92,7 @@ li{
 }
 .contact ul{
     margin: 5%;
+    margin-left: 17%;
 }
 .contact ul li fa-sharp{
     display: flex;
@@ -174,6 +175,7 @@ h3{
     .contact ul{
         margin: 3%;
         padding-left: 4%;
+        margin-left: 0;
     }
     .contact ul li{
         font-size: 15px;
