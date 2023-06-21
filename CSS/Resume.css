@@ -211,13 +211,14 @@ h3{
         font-size: 15px;
     }
     .personal-skills ul {
-        margin-left: 0;
+        margin-left: 2%;
     }
     .technical-skills ul {
         margin: 0;
+        margin-left: 2%;
     }
     .language ul {
         margin: 0;
-        margin-left: 0;
+        margin-left: 2%;
     }
 }
