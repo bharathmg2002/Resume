@@ -103,15 +103,15 @@ li{
 
 .personal-skills ul{
     /* margin: 5%; */
-    margin-left: 35%;
+    margin-left: 30%;
 }
 .technical-skills ul{
     margin: 5%;
-    margin-left: 35%;
+    margin-left: 30%;
 }
 .language ul{
     margin: 5%;
-    margin-left: 35%;
+    margin-left: 30%;
 }
 .certificates1{
     display: none;
@@ -213,15 +213,5 @@ h3{
     .certificates1 ul{
         margin-left: 20%;
     }
-    /* .personal-skills ul {
-        margin-left: 2%;
-    } */
-    /* .technical-skills ul {
-        margin: 0;
-        margin-left: 2%;
-    }
-    .language ul {
-        margin: 0;
-        margin-left: 2%;
-    } */
+
 }
